@@ -1,0 +1,43 @@
+.list {
+    margin: 60px auto;
+}
+.item {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #002aff;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.status {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    border-radius: 50%;
+    background-color: #002aff;
+}
+
+.status.active { 
+    background-color: #ffe600;
+}
+
+.avatar {
+    width: 55px;
+    height: 55px;
+    padding: 3px;
+    margin-right: 20px;
+    background-color: #002aff;
+    border-radius: 8px;
+    border: 1px solid #002aff;
+}
+
+.name {
+    font-size: 30px;
+    margin: 0;
+}
